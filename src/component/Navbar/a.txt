@@ -1,0 +1,59 @@
+
+import '../../pages/App.css';
+
+
+
+
+
+const Navbar = ({ history }) => (<div class="container-fluid ">
+
+<div  style={{background:'#ECF0F1 '}}>
+  <div class="row"><div class="col-1"></div>
+
+  <div class="col-4"></div>
+  <div class="col-10 col-lg-12 col-sm-12" style={{background:"#ECF0F1 "}}><h3>Ashwini shaw&nbsp;&nbsp;&nbsp;ashwinishaw@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>&nbsp;Mob:9999900001</span></h3></div>
+</div>
+
+<div class="container-fluid " style={{borderRadius:"20px",height: "50px"}}>
+
+
+
+
+     
+  <nav class="navbar navbar-default">
+      <div class="container">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+            
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li ><a href="/">Home</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+          
+                  <li><a href="/product">product</a></li>
+                    <li ><a href="/About-us">About</a></li>
+            
+                    
+          
+            </ul>
+          </div>
+      </div>
+  </nav>
+  
+
+</div>
+</div>
+</div>
+
+);
+
+
+export default Navbar;
